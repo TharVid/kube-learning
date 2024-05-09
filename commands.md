@@ -1,5 +1,8 @@
+Create namespace
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+kubectl create namepsace prod
+```
+Rolling Update
+```
+kubectl set image deployment/nginx-deployment nginx-container=nginx:1.17
 ```
