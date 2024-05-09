@@ -1,2 +1,2 @@
-##Create namespace <br>
+Create namespace <br>
 `kubectl create namepsace prod`
